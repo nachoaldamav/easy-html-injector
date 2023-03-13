@@ -1,4 +1,3 @@
-import reporter from '@jsperf.dev/reporter';
 import benchmark from '@jsperf.dev/benchmark';
 import { resolve } from 'node:path';
 import { readFileSync, writeFileSync } from 'node:fs';

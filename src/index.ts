@@ -6,6 +6,12 @@ type HtmlElement = {
   attributes?: { [key: string]: string };
 };
 
+/**
+ * Simple function to inject an element into an html string.
+ * @param html
+ * @param element
+ * @returns html with injected element
+ */
 export function inject(html: string, element: HtmlElement) {
   const { tag, content, attributes, parent, position } = element;
   const attributesString = attributes
