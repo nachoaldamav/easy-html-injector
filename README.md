@@ -96,11 +96,11 @@ This will output:
 ## License
 `easy-html-injector` is released under the MIT License. See the LICENSE file for more details.
 
-## Benchmark
+## Benchmark
 
 <!-- BENCHMARK RESULTS START -->
 | Benchmark | Average | Min | Max | Median | Std Dev | Variance | Ops | Ops/sec |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| inject | 0.02 | 0.00 | 0.12 | 0.00 | 0.03 | 2.01 | 60180.33 | 60180327.02 |
-| cheerio | 0.88 | 0.34 | 4.64 | 0.43 | 1.26 | 1.43 | 1133.77 | 1133771.01 |
+| inject | 0.016 | 0.0032 | 0.12 | 0.0045 | 0.033 | 2.0 | 60637 | 60636916 |
+| cheerio | 0.95 | 0.36 | 5.1 | 0.45 | 1.4 | 1.5 | 1055 | 1054950 |
 <!-- BENCHMARK RESULTS END -->

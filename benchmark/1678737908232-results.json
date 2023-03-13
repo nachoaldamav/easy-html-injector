@@ -1,0 +1,134 @@
+{
+  "runResults": [
+    {
+      "run": "inject",
+      "results": [
+        {
+          "name": "inject",
+          "entryType": "measure",
+          "startTime": 557.9982500076294,
+          "duration": 0.1197500228881836
+        },
+        {
+          "name": "inject",
+          "entryType": "measure",
+          "startTime": 558.2250001430511,
+          "duration": 0.00704193115234375
+        },
+        {
+          "name": "inject",
+          "entryType": "measure",
+          "startTime": 558.241250038147,
+          "duration": 0.004374980926513672
+        },
+        {
+          "name": "inject",
+          "entryType": "measure",
+          "startTime": 558.2534580230713,
+          "duration": 0.009083986282348633
+        },
+        {
+          "name": "inject",
+          "entryType": "measure",
+          "startTime": 558.272833108902,
+          "duration": 0.008291959762573242
+        },
+        {
+          "name": "inject",
+          "entryType": "measure",
+          "startTime": 558.2914171218872,
+          "duration": 0.004582881927490234
+        },
+        {
+          "name": "inject",
+          "entryType": "measure",
+          "startTime": 558.3869581222534,
+          "duration": 0.005625009536743164
+        },
+        {
+          "name": "inject",
+          "entryType": "measure",
+          "startTime": 558.4028329849243,
+          "duration": 0.0032501220703125
+        },
+        {
+          "name": "inject",
+          "entryType": "measure",
+          "startTime": 558.4113330841064,
+          "duration": 0.0034999847412109375
+        },
+        {
+          "name": "inject",
+          "entryType": "measure",
+          "startTime": 558.4212501049042,
+          "duration": 0.0031249523162841797
+        }
+      ]
+    },
+    {
+      "run": "cheerio",
+      "results": [
+        {
+          "name": "cheerio",
+          "entryType": "measure",
+          "startTime": 649.5972499847412,
+          "duration": 4.5317089557647705
+        },
+        {
+          "name": "cheerio",
+          "entryType": "measure",
+          "startTime": 654.2341248989105,
+          "duration": 0.7295839786529541
+        },
+        {
+          "name": "cheerio",
+          "entryType": "measure",
+          "startTime": 654.975625038147,
+          "duration": 0.4497499465942383
+        },
+        {
+          "name": "cheerio",
+          "entryType": "measure",
+          "startTime": 655.5049588680267,
+          "duration": 0.44487500190734863
+        },
+        {
+          "name": "cheerio",
+          "entryType": "measure",
+          "startTime": 655.9625420570374,
+          "duration": 0.43649983406066895
+        },
+        {
+          "name": "cheerio",
+          "entryType": "measure",
+          "startTime": 656.4119999408722,
+          "duration": 0.41449999809265137
+        },
+        {
+          "name": "cheerio",
+          "entryType": "measure",
+          "startTime": 656.899083852768,
+          "duration": 0.3458750247955322
+        },
+        {
+          "name": "cheerio",
+          "entryType": "measure",
+          "startTime": 657.2597498893738,
+          "duration": 0.495542049407959
+        },
+        {
+          "name": "cheerio",
+          "entryType": "measure",
+          "startTime": 657.7647089958191,
+          "duration": 0.40387487411499023
+        },
+        {
+          "name": "cheerio",
+          "entryType": "measure",
+          "startTime": 658.1787090301514,
+          "duration": 0.3924999237060547
+        }
+      ]
+    }
+  ]
+}
