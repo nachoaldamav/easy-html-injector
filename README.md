@@ -21,7 +21,7 @@ yarn add easy-html-injector
 
 #### Bonus: Using my package manager
 
-I've made a package manager called [Ultra](https://ultrapkg.dev) that is faster and uses less disk space than npm and yarn. If you want to try it out, you can install it with:
+I've made a package manager called [Ultra](https://ultrapkg.dev). If you want to try it out, you can install it with:
 
 ```bash
 npm install -g @ultrapkg/core
