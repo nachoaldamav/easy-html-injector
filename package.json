@@ -14,7 +14,8 @@
   },
   "scripts": {
     "build": "tsup",
-    "test": "ava"
+    "test": "ava",
+    "benchmark": "ts-node benchmark/index.ts"
   },
   "files": [
     "dist",
