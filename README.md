@@ -2,7 +2,7 @@
 
 ## Introduction
 
-easy-html-injector is a simple Node module that allows you to inject HTML elements into an HTML string. The package exports a single function inject(html: string, element: HtmlElement) that takes an HTML string and an object representing an HTML element to be injected, and returns the modified HTML string with the new element inserted at the specified position.
+easy-html-injector is a simple Node module that allows you to inject HTML elements into an HTML string. The package exports a single function `inject(html: string, element: HtmlElement)` that takes an HTML string and an object representing an HTML element to be injected, and returns the modified HTML string with the new element inserted at the specified position.
 
 ### Installation
 To install `easy-html-injector`, use pnpm, npm, or yarn:
