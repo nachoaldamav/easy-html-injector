@@ -1,0 +1,45 @@
+{
+  "name": "easy-html-injector",
+  "version": "1.0.1",
+  "description": "A simple HTML injector for Node.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "ava"
+  },
+  "files": [
+    "dist",
+    "types",
+    "package.json"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "18.15.2",
+    "typescript": "4.9.5",
+    "ava": "5.2.0",
+    "@ava/typescript": "4.0.0",
+    "ts-node": "10.9.1"
+  },
+  "dependencies": {
+    "tsup": "6.6.3"
+  },
+  "ava": {
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  }
+}
