@@ -101,6 +101,6 @@ This will output:
 <!-- BENCHMARK RESULTS START -->
 | Benchmark | Average | Min | Max | Median | Std Dev | Variance | Ops | Ops/sec |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| inject | 0.016 | 0.0032 | 0.12 | 0.0045 | 0.033 | 2.0 | 60637 | 60636916 |
-| cheerio | 0.95 | 0.36 | 5.1 | 0.45 | 1.4 | 1.5 | 1055 | 1054950 |
+| inject | 0.016 | 0.0030 | 0.11 | 0.0043 | 0.032 | 2.0 | 62631 | 62630905 |
+| cheerio | 0.87 | 0.35 | 4.5 | 0.43 | 1.2 | 1.4 | 1147 | 1146707 |
 <!-- BENCHMARK RESULTS END -->

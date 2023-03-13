@@ -1,6 +1,6 @@
 {
   "name": "easy-html-injector",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple HTML injector for Node.js",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -33,9 +33,7 @@
     "ts-node": "10.9.1",
     "cheerio": "1.0.0-rc.12",
     "benchmarkify": "3.0.0",
-    "@jsperf.dev/reporter": "0.2.0"
-  },
-  "dependencies": {
+    "@jsperf.dev/reporter": "0.2.0",
     "tsup": "6.6.3",
     "@jsperf.dev/benchmark": "0.3.4"
   },
