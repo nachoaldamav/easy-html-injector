@@ -7,7 +7,7 @@ export default defineConfig({
   clean: true,
   format: ['esm', 'cjs'],
   minify: true,
-  sourcemap: true,
+  sourcemap: false,
   target: 'es2019',
   tsconfig: 'tsconfig.json',
   outDir: 'dist',
