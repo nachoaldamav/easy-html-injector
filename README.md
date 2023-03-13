@@ -40,15 +40,15 @@ import { inject } from 'easy-html-injector';
 
 The inject function takes two arguments:
 
-- html: A string containing the HTML that you want to modify.
+- `html`: A string containing the HTML that you want to modify.
 
-- element: An object representing the HTML element that you want to inject. The object has the following properties:
+- `element`: An object representing the HTML element that you want to inject. The object has the following properties:
 
-    - parent: A string representing the parent element into which the new element will be injected. This can be 'head', 'body', or any other valid HTML element tag name.
-    - position: A string representing the position at which the new element will be inserted. This can be 'prepend' or 'append'.
-    - tag: A string representing the tag name of the new element.
-    - content (optional): A string representing the content to be inserted into the new element.
-    - attributes (optional): An object representing the attributes to be added to the new element. The keys of the object represent attribute names, and the values represent attribute values.
+    - `parent`: A string representing the parent element into which the new element will be injected. This can be 'head', 'body', or any other valid HTML element tag name.
+    - `position`: A string representing the position at which the new element will be inserted. This can be 'prepend' or 'append'.
+    - `tag`: A string representing the tag name of the new element.
+    - `content` (optional): A string representing the content to be inserted into the new element.
+    - `attributes` (optional): An object representing the attributes to be added to the new element. The keys of the object represent attribute names, and the values represent attribute values.
 
 Here is an example usage:
 
